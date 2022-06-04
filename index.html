@@ -1,0 +1,110 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> DOM Manipulating Practice</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+    
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    
+
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">      
+    <nav class="navbar__menu">
+<!--       Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list" ></ul>
+<!--A dynamic Navigation bar is built using Javascript, but the code requires pasting in the console. -->
+    </nav>   
+  </header>
+        
+
+  <main>
+    <header class="main__hero">
+      <h1>Tree Story</h1>
+
+         
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+<!--      Section 1-->
+      
+      
+      
+<!--      class="your-active-class"-->
+    <section id="section1" data-nav="Introduction" >
+      <div class="landing__container">
+        <h2>Introduction</h2>
+        <p>Planet Earth is full of chemicals and elements which are essentially useful and can be used and structured to different needs. These raw elements are present in different ways and combinations, and some can be readily usable or needs some processing before being used. Extracting elements from their ores or their natural resources can be done until the resource is empty or no longer able to provide the substance like in the case of crude oil wells. Recycling then allows elements to be used multiple times after different applications if the element is not used up.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, This males programming one of the important and fundamentals topics in world today.</p>
+      </div>
+<!--        section 2-->
+    </section>
+      
+      
+      
+      
+      
+    <section id="section2" data-nav="Historical Overview">
+      <div class="landing__container">
+        <h2>Historical Overview</h2>
+        <p>The worldwide vision of recycling and saving natural resources is showing its effect, not only within the manufacturing and chemical industries but also among sports and fun activities, which at the same time minimize costs and efforts. A recent example of the latter is the Tokyo 2020 Olympics games which were finally held during the summer of 2021, in which the medals were entirely made of recycled electronics. The gold, which is gold-plated silver, pure silver and bronze, which is 95% copper and 5% zinc, medals were made from recycled electronic devices, like cell phones, laptops, cameras and others.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, This males programming one of the important and fundamentals topics in world today.</p>
+      </div>
+    </section>
+<!--        Section 3-->
+    <section id="section3" data-nav="Current Advances">
+      <div class="landing__container">
+        <h2>Current Advances</h2>
+        <p>The fact is that the number of wastes is constantly increasing, one reason for the electronic wastes’ expansion is due to the frequent advances in technologies which makes everyone always looking for the new advancements even if the previous device is still functioning properly. Many scientific researchers are studying and developing new techniques to recycle wastes, to collect the beneficial and precious substances hidden inside them and reduce the accumulation of wastes and the bad impact it has on various living organisms. This is done by investigating different ideas, technologies and procedures.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+    </section>
+<!--      Section 4-->
+    <section id="section4" data-nav="Future">
+      <div class="landing__container">
+        <h2>Future</h2>
+        <p>Different methods and techniques are studied for their reliability and efficiency in recovery and separation of REEs from various materials and extracts. These methods include pre-selection, separation, physical and chemical treatment and individual REEs separation techniques such as adsorption, ionic liquids and membranes applications. Membranes based on modified polymer matrices such as polymers, hybrid, ion-imprinted polymers are drawing a huge interest among researchers for their high selectivity and affinity and technical compatibility.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+    </section>
+<!--      Section 5-->
+    <section id="section5" data-nav="Contact Details">
+      <div class="landing__container">
+        <h2>Contact Details</h2>
+        <p> Email: <br> Facebook: <br> Twitter: <br> Telegram: <br> Phone: <br> Address: </p>
+<!-- 
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p> -->
+      </div>
+    </section>
+<!--      Section 6-->
+<!--     <section id="section6" data-nav="Section 6">
+      <div class="landing__container">
+        <h2>Section 6</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+    </section> -->
+
+  </main>
+    
+  <footer class="page__footer">
+    <p>&copy Udacity</p>
+    <p>&copy Abdelaziz Moustafa</p>
+  </footer>
+<script src="js/app.js"></script>
+</body>
+</html>
