@@ -1,6 +1,6 @@
 This project is a website, compromised of an HTML, a CSS and a Javascript files. 
 
-Disclaimer: The project and source files were provided by Udacity, my role was only manipulating the Javascript file to provide the website with the required performance mentioned below.
+Disclaimer: The project and source files were provided by Udacity, my role was manipulating the Javascript file, and updating the HTML and CSS accordingly, to provide the website with the required performance mentioned below.
 
 The page has the ability to hold mutliple sections, any number of sections can be added in the HTML file having the same properties as the previous sections. Furthermore, the Javascript app will make a dynamic navigation bar based on the number of sections present in the HTML file. 
 
